@@ -2,6 +2,7 @@ import './App.css'
 import ColorPicker from './components/ColorPicker/ColorPicker'
 import DigitalClock from './components/DigitalClock/DigitalClock'
 import FormBuilder from './components/FormBuilder'
+import ReduxMain from './components/ReduxPart/ReduxMain'
 import Stopwatch from './components/Stopwatch/Stopwatch'
 import TodoList from './components/TodoList/TodoList'
 import UpdateObject from './components/UpdateObject/UpdateObject'
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className='App'>
       {/* <h1>React Form Builder</h1> */}
-      <DigitalClock />
+      <ReduxMain />
     </div>
   )
 }
